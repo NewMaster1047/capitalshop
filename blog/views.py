@@ -9,10 +9,6 @@ def categories_view(request):
     return render(request, 'categories.html')
 
 
-def login_view(request):
-    return render(request, 'login.html')
-
-
 def cart_view(request):
     return render(request, 'cart.html')
 
@@ -40,9 +36,5 @@ def blog_details_view_(request):
 
 def elements_view(request):
     return render(request, 'elements.html')
-
-
-def contact_view(request):
-    return render(request, 'contact.html')
 
 
