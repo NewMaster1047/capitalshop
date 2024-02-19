@@ -5,10 +5,6 @@ def home_view(request):
     return render(request, 'index.html')
 
 
-def categories_view(request):
-    return render(request, 'categories.html')
-
-
 def cart_view(request):
     return render(request, 'cart.html')
 

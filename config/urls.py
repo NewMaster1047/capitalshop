@@ -8,12 +8,13 @@ urlpatterns = [
 
     path('', include('blog.urls')),
 
-    path('store/', include('store.urls')),
+    path('categories/', include('store.urls')),
     path('blog/', include('blog.urls')),
 
     path('contact/', include('contact.urls')),
 
-    path('auth/', include('authentication.urls')),
+    path('login/', include('authentication.urls')),
+
 
 ]
 
